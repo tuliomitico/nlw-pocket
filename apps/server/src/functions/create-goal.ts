@@ -19,4 +19,6 @@ export async function createGoal({
 		.returning();
 
 	const goal = result[0];
+
+	return goal
 }
