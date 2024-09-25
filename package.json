@@ -1,8 +1,8 @@
 {
-    "name": "my-monorepo",
-    "private": true,
-    "scripts": {
-      "dev": "pnpm -r dev"
-    }
-  }
-  
+	"name": "my-monorepo",
+	"private": true,
+	"scripts": {
+		"dev": "pnpm -r dev",
+		"web": "pnpm --filter web run dev"
+	}
+}
